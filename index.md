@@ -22,7 +22,9 @@ In the meantime, we provided an easy-to-follow proof of concept including a toy 
 
 ## Examples
 
+<div class="ex-img">
 ![](nuscenes-dataset.png "Example: Nuscenes Results")
+</div>
 
 On the challenging NuScenes dataset, our model learns plausible paths through intersections. Top row: intersection birdseye view, middle: ground truth input (cyan) and output (magenta) trajectory, bottom: learned plausible paths for the agent.
 
