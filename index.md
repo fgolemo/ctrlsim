@@ -1,6 +1,6 @@
 ![](overview.png "Nested Set Transformers Overview") 
 
-TL;DR: ...TODO Enter cute lil summary here 
+TL;DR: We propose a framework for obtaining multimodal distributions over future sets of sets based on latent variables and autoregressive modelling of sequences. Based on the framework, we introduce a model architecture called **Nested Set Transformer** that uses multi-head self-attention blocks for social attention between elements, and validate it in the context of motion prediction for autonomous driving (**AutoBot**) where we achieve state-of-the-art results on NuScenes.
 
 ## Abstract
 
