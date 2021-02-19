@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+![](overview.png "Nested Set Transformers Overview") 
 
-You can use the [editor on GitHub](https://github.com/fgolemo/autobots/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+TL;DR: ...TODO
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Abstract
 
-### Markdown
+Humans have the innate ability to attend to the most relevant actors in their vicinity and can forecast how they may behave in the future. This ability will be crucial for the deployment of safety-critical agents such as robots or vehicles which interact with humans. We propose a theoretical framework for this problem setting based on autoregressively modelling sequences of nested sets, using latent variables to better capture multimodal distributions over future sets of sets. We present a new model architecture which we call a Nested Set Transformer which employs multi-head self-attention blocks over sets of sets that serve as a form of social attention between the elements of the sets at every timestep. Our approach can produce a distribution over future trajectories for all agents under consideration, or focus upon the trajectory of an ego-agent. We validate the Nested Set Transformer for autonomous driving settings which we refer to as ("AutoBot"), where we model the trajectory of an ego-agent based on the sequential observations of key attributes of multiple agents in a scene. AutoBot produces results better than state-of-the-art published prior work on the challenging nuScenes vehicle trajectory modeling benchmark. We also examine the multi-agent prediction version of our model and jointly forecast an ego-agent's future trajectory along with the other agents in the scene. We validate the behavior of our proposed Nested Set Transformer for scene level forecasting with a pedestrian trajectory dataset.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Paper
 
-```markdown
-Syntax highlighted code block
+The paper can be found on arXiv.org:
 
-# Header 1
-## Header 2
-### Header 3
+[arxiv-id](#)
 
-- Bulleted
-- List
+## Code
 
-1. Numbered
-2. List
+The full repo will be released soon. 
 
-**Bold** and _Italic_ and `Code` text
+In the meantime, we provided an easy-to-follow proof of concept here:
 
-[Link](url) and ![Image](src)
-```
+[https://gist.github.com/fgolemo/b762ddc59c83ca19cd15f3767e2c3780](https://gist.github.com/fgolemo/b762ddc59c83ca19cd15f3767e2c3780)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Bibtex
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/fgolemo/autobots/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+TODO after arxiv
