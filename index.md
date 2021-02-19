@@ -1,6 +1,6 @@
 ![](overview.png "Nested Set Transformers Overview") 
 
-TL;DR: ...TODO
+TL;DR: ...TODO Enter cute lil summary here 
 
 ## Abstract
 
@@ -16,9 +16,16 @@ The paper can be found on arXiv.org:
 
 The full repo will be released soon. 
 
-In the meantime, we provided an easy-to-follow proof of concept here:
+In the meantime, we provided an easy-to-follow proof of concept including a toy dataset here:
 
 [https://gist.github.com/fgolemo/b762ddc59c83ca19cd15f3767e2c3780](https://gist.github.com/fgolemo/b762ddc59c83ca19cd15f3767e2c3780)
+
+## Examples
+
+![](nuscenes-dataset.png "Example: Nuscenes Results")
+
+On the challenging NuScenes dataset, our model learns plausible paths through intersections. Top row: intersection birdseye view, middle: ground truth input (cyan) and output (magenta) trajectory, bottom: learned plausible paths for the agent.
+
 
 ## Bibtex
 

@@ -1,0 +1,11 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+section.page-header {
+    padding: 2rem 3rem;
+}
+section.page-header btn {
+  display: none;
+}
