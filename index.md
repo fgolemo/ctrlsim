@@ -8,9 +8,7 @@ Humans have the innate ability to attend to the most relevant actors in their vi
 
 ## Paper
 
-The paper can be found on arXiv.org:
-
-[arxiv-id](#) (TODO after release)
+The paper can be found on arXiv.org: [https://arxiv.org/abs/2104.00563](https://arxiv.org/abs/2104.00563)
 
 ## Code
 
@@ -31,4 +29,11 @@ On the challenging NuScenes dataset, our model learns plausible paths through in
 
 ## Bibtex
 
-TODO after arxiv
+    @misc{girgis2021latent,
+      title={Latent Variable Nested Set Transformers & AutoBots}, 
+      author={Roger Girgis and Florian Golemo and Felipe Codevilla and Jim Aldon D'Souza and Samira Ebrahimi Kahou and Felix Heide and Christopher Pal},
+      year={2021},
+      eprint={2104.00563},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO}
+    }
