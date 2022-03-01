@@ -1,4 +1,9 @@
-![](overview.png "Nested Set Transformers Overview") 
+<div id="info">Description</div>
+<canvas id="canvas">
+</canvas>
+<script type="module" src="./assets/renderer.js"></script>
+
+
 
 TL;DR: We propose a framework for obtaining multimodal distributions 
 over the future evolution of elements in sets based on latent variables and Transformer-based 
@@ -9,6 +14,9 @@ seed parameters in the decoder, AutoBots are computationally efficient and can b
 inference. We validate AutoBots in the context of motion prediction for autonomous driving where we 
 achieve strong results on the Nuscenes dataset. We further demonstrate its multi-agent forecasting 
 performance on a synthetic pedestrian dataset.
+
+![](overview.png "Nested Set Transformers Overview")
+
 
 ## Abstract
 
@@ -39,9 +47,12 @@ The paper can be found on arXiv.org: [https://arxiv.org/abs/2104.00563](https://
 
 The full repo will be released soon. 
 
-In the meantime, we provided an easy-to-follow proof of concept including a toy dataset here:
+In the meantime, we provided an easy-to-follow proof of concept for the Omniglot dataset here:
 
-[https://gist.github.com/fgolemo/b762ddc59c83ca19cd15f3767e2c3780](https://gist.github.com/fgolemo/b762ddc59c83ca19cd15f3767e2c3780)
+[https://gist.github.com/fgolemo/e6ff3daddcf735e8835789bbb39ece58](https://gist.github.com/fgolemo/e6ff3daddcf735e8835789bbb39ece58)
+
+
+
 
 ## Examples
 
