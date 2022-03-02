@@ -72,7 +72,7 @@ Bottom row: learned plausible paths for the agent.
 ### TrajNet++ Synthetic Data
 
 <div class="ex-img">
-    <img src="./trajnetpp_figures.png" alt="Example: TrajNetPP Results">
+    <img src="./trajnetpp_figure.png" alt="Example: TrajNetPP Results">
 </div>
 
 The synthetic partition of the TrajNet++ dataset is designed to include a high-level of interaction 
