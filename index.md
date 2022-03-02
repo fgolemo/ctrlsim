@@ -43,9 +43,13 @@ feature of AutoBots is that all models are trainable on a single desktop GPU (10
 
 The paper can be found on arXiv.org: [https://arxiv.org/abs/2104.00563](https://arxiv.org/abs/2104.00563)
 
+The work was originally published on 19th Feb 2021 and got [**accepted at ICLR 2022 as spotlight**](https://openreview.net/forum?id=Dup_dDqkZC5)
+
+Video/poster will follow soon.
+
 ## Code
 
-The full repo will be released soon. 
+The full repo will be released soon. If you need urgent access, please email the first author (address in arxiv paper).
 
 In the meantime, we provided an easy-to-follow proof of concept for the Omniglot dataset here:
 
