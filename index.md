@@ -96,7 +96,7 @@ future scene with a single forward pass. Here we show how increasing the number 
 input timesteps, the prediction horizon and the number of discrete modes affect the inference speed (in FPS)
 of AutoBot-Ego (top-row) and AutoBot (bottom-row). We can see that models with the decoder seed parameters
 can perform real-time inference (>30FPS) for almost all configurations, while autoregressive counterparts
-struggle depending on the configuration. All runs were performed on a single desktop GPU (1080 Ti).
+struggle depending on the configuration. **All runs were performed on a single desktop GPU (1080 Ti).**
 
 
 ## Bibtex
