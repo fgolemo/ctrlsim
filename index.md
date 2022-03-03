@@ -101,8 +101,11 @@ struggle depending on the configuration. **All runs were performed on a single d
 
 ## Bibtex
 
-    @inproceedings{Girgis2021LatentVS,
-      title={Latent Variable Sequential Set Transformers For Joint Multi-Agent Motion Prediction},
-      author={Roger Girgis and Florian Golemo and Felipe Codevilla and Martin Weiss and Jim Aldon D'Souza and Samira Ebrahimi Kahou and Felix Heide and Christopher Joseph Pal},
-      year={2021}
+    @inproceedings{
+      girgis2022latent,
+      title={Latent Variable Sequential Set Transformers for Joint Multi-Agent Motion Prediction},
+      author={Roger Girgis and Florian Golemo and Felipe Codevilla and Martin Weiss and Jim Aldon D'Souza and Samira Ebrahimi Kahou and Felix Heide and Christopher Pal},
+      booktitle={International Conference on Learning Representations},
+      year={2022},
+      url={https://openreview.net/forum?id=Dup_dDqkZC5}
     }
