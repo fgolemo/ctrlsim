@@ -137,12 +137,14 @@ let optimus;
 //             }, onProgress );
 //     } );
 
+const good_trajectories = [8, 3, 9, 1]
+
 function loadTraj() {
     const loader = new THREE.FileLoader()
     loader.setResponseType('json')
     loader.load(
         // resource URL
-        './assets/data-55-8.json',
+        './assets/data-55-0.json',
 
         // onLoad callback
         function(data) {
@@ -274,7 +276,7 @@ function moveObjsSeq() {
             pos = new THREE.Vector3(current_x_major + diff_x_gt, 0.025, current_y_major + diff_y_gt)
             rot = current_yaw_major_gt + diff_yaw_gt
         } else {
-            let pred = o.predictions[prediction]
+            let pred = o.predictions[good_trajectories[prediction]]
             current_x_major = pred['x'][majorStep - o.in_steps]
             current_y_major = -pred['y'][majorStep - o.in_steps]
             let current_yaw_major_p = pred['yaw'][majorStep - o.in_steps]

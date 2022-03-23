@@ -16,3 +16,13 @@ section.page-header .btn {
   margin-right: auto;
   max-width: 60%;
 }
+
+@font-face {
+  font-family: transfontmer;
+  src: url("../SFTransRobotics.ttf");
+}
+
+h1.project-name span {
+  font-family: transfontmer;
+  font-weight: normal;
+}
