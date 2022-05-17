@@ -49,14 +49,7 @@ Video/poster will follow soon.
 
 ## Code
 
-The full repo will be released soon. If you need urgent access, please email the first author (address in arxiv paper).
-
-In the meantime, we provided an easy-to-follow proof of concept for the Omniglot dataset here:
-
-[https://gist.github.com/fgolemo/e6ff3daddcf735e8835789bbb39ece58](https://gist.github.com/fgolemo/e6ff3daddcf735e8835789bbb39ece58)
-
-
-
+The full repo is available in Pytorch [here](https://github.com/roggirg/AutoBots).
 
 ## Examples
 
