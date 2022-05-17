@@ -1,6 +1,6 @@
 title: Latent Variable Sequential Set Transformers For Joint Multi-Agent Motion Prediction (aka. "AutoBots")
-description: Presenting a novel architecture for sequence-modelling of sets.<br>Work by <a href="https://images.squarespace-cdn.com/content/v1/563e18a8e4b0676ed0b54f08/5163c63c-0f1b-4d14-99c1-07e1fbc80470/3.jpg">Roger Girgis</a>, <a href="https://fgolemo.github.io/">Florian Golemo</a>, <a href="https://www.codevilla.info/">Felipe Codevilla</a>, <a href="http://martincsweiss.com/">Martin Weiss</a>, <a href="https://jimaldon.com/about.html">Jim Aldon D'Souza</a>, <a href="https://saebrahimi.github.io/">Samira Ebrahimi Kahou</a>, <a href="https://algolux.com/our-team/felix-heide/">Felix Heide<a/>, <a href="https://sites.google.com/view/christopher-pal">Christopher Pal</a>
+description: Presenting a novel architecture for sequence-modelling of sets.<br>Work by <a href="https://pbs.twimg.com/profile_images/1506661208572706820/vY2klztu_400x400.jpg">Roger Girgis</a>, <a href="https://fgolemo.github.io/">Florian Golemo</a>, <a href="https://www.codevilla.info/">Felipe Codevilla</a>, <a href="http://martincsweiss.com/">Martin Weiss</a>, <a href="https://jimaldon.com/about.html">Jim Aldon D'Souza</a>, <a href="https://saebrahimi.github.io/">Samira Ebrahimi Kahou</a>, <a href="https://algolux.com/our-team/felix-heide/">Felix Heide<a/>, <a href="https://sites.google.com/view/christopher-pal">Christopher Pal</a>
 theme: jekyll-theme-cayman
 links:
   arxiv: https://arxiv.org/abs/2104.00563
-  codesample: https://gist.github.com/fgolemo/e6ff3daddcf735e8835789bbb39ece58
+  code: https://github.com/roggirg/AutoBots
