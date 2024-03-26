@@ -1,4 +1,4 @@
-<div id="info">Description</div>
+<!-- <div id="info">Description</div> -->
 <!-- <canvas id="canvas">
 </canvas>
 <script type="module" src="./assets/renderer.js"></script> -->
@@ -37,6 +37,8 @@ TODO
 <!-- The full repo is available in Pytorch [here](https://github.com/roggirg/AutoBots). -->
 
 ## Examples
+
+TODO
 <!-- 
 ### Nuscenes
 <div class="ex-img">
