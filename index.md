@@ -25,59 +25,17 @@ We demonstrate that CtRL-Sim can efficiently generate diverse and realistic safe
 ## Paper
 
 TODO
-<!-- The paper can be found on arXiv.org: [https://arxiv.org/abs/2104.00563](https://arxiv.org/abs/2104.00563)
 
-The work was originally published on 19th Feb 2021 and got [**accepted at ICLR 2022 as spotlight**](https://openreview.net/forum?id=Dup_dDqkZC5)
-
-Video/poster will follow soon. -->
 
 ## Code
 
 TODO
-<!-- The full repo is available in Pytorch [here](https://github.com/roggirg/AutoBots). -->
+
 
 ## Examples
 
 TODO
-<!-- 
-### Nuscenes
-<div class="ex-img">
-    <img src="./nuscenes-dataset-map.png" alt="Example: Nuscenes Results">
-</div>
 
-On the challenging NuScenes dataset, our model learns plausible paths through intersections. 
-Top row: intersection birdseye view with ground truth input (cyan) and output (magenta) trajectory.
-Bottom row: learned plausible paths for the agent.
-
-### TrajNet++ Synthetic Data
-
-<div class="ex-img">
-    <img src="./trajnetpp_figure.png" alt="Example: TrajNetPP Results">
-</div>
-
-The synthetic partition of the TrajNet++ dataset is designed to include a high-level of interaction 
-between agents.
-The top-row shows the performance of our full model (labelled "AutoBot") which predicts scene-consistent
-and plausible future scenes across its 3 different modes.
-We contrast this to two other AutoBot variants which do not employ social attention in the decoder (middle-row, 
-AutoBot-Ego), or in both the encoder and decoder (bottom-row, AutoBot-Antisocial).
-
-### Computational Efficiency
-
-<div class="ex-img">
-    <img src="./speed_tests_ego.png" alt="Example: Ego-Speed">
-    <img src="./speed_tests_joint.png" alt="Example: Joint-Speed">
-</div>
-
-Conventional methods employ autoregressive decoding to generate the future scene 
-which can make such methods slow at inference time. One of the main contributions
-of AutoBots is the use of learnable seed parameters in the decoder which allows it to predict the entire
-future scene with a single forward pass. Here we show how increasing the number of agents, the number of 
-input timesteps, the prediction horizon and the number of discrete modes affect the inference speed (in FPS)
-of AutoBot-Ego (top-row) and AutoBot (bottom-row). We can see that models with the decoder seed parameters
-can perform real-time inference (>30FPS) for almost all configurations, while autoregressive counterparts
-struggle depending on the configuration. **All runs were performed on a single desktop GPU (1080 Ti).**
- -->
 
 ## Bibtex
 
